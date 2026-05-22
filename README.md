@@ -59,9 +59,9 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 #### Estrutura semântica
 
-- [ ] `<header>`
-- [ ] `<nav>`
-- [ ] `<main>`
+- [ x ] `<header>`
+- [ x ] `<nav>`
+- [ x ] `<main>`
 - [ ] `<section>`
 - [ ] `<article>`
 - [ ] `<aside>`
@@ -69,10 +69,10 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 #### Conteúdo
 
-- [ ] Títulos (`h1`, `h2`, `h3`, etc.)
-- [ ] Parágrafos (`p`)
-- [ ] Imagens (`img`)
-- [ ] Links (`a`)
+- [ x ] Títulos (`h1`, `h2`, `h3`, etc.)
+- [ x ] Parágrafos (`p`)
+- [ x ] Imagens (`img`)
+- [ x ] Links (`a`)
 - [ ] Listas:
   - [ ] `ul`
   - [ ] `ol`

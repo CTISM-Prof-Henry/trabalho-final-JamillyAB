@@ -29,7 +29,7 @@ Descreva abaixo **sobre o que se trata seu site:**
 
 - **Tema: A linguagem das flores**
 - **Público-alvo: Pessoas interessadas em presentear alguém com flores, seja no bom ou mal sentido**
-- **Funcionalidades:**
+- **Funcionalidades: Ao clicar nos cards das flores, uma parte é expandida com mais informações sobre ela**
 
 ## Uso de IA
 

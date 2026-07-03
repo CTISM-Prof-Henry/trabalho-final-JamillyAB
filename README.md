@@ -101,7 +101,7 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 ## ⚙️ JavaScript
 
-- [ ] Manipulação do DOM
+- [ x ] Manipulação do DOM
 - [ x ] Eventos (`click`, `submit`, etc.)
 - [ ] Validação de formulário
 - [ ] Alteração dinâmica de conteúdo

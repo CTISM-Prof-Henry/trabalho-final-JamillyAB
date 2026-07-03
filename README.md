@@ -29,7 +29,7 @@ Descreva abaixo **sobre o que se trata seu site:**
 
 - **Tema: A linguagem das flores**
 - **Público-alvo: Pessoas interessadas em presentear alguém com flores, seja no bom ou mal sentido**
-- **Funcionalidades: Ao clicar nos cards das flores, uma parte é expandida com mais informações sobre ela**
+- **Funcionalidades:**
 
 ## Uso de IA
 
@@ -101,7 +101,7 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 ## ⚙️ JavaScript
 
-- [ x ] Manipulação do DOM
+- [ ] Manipulação do DOM
 - [ x ] Eventos (`click`, `submit`, etc.)
 - [ ] Validação de formulário
 - [ ] Alteração dinâmica de conteúdo

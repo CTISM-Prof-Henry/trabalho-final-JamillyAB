@@ -22,7 +22,6 @@
     font-size: 16px;
 }
 
-/* Reset básico para calcular o box-sizing de forma consistente */
 * {
     box-sizing: border-box;
 }
@@ -42,7 +41,7 @@ body#pagina-inicial {
     background-size: cover;
 }
 
-/* Cabeçalho fixo no topo da página */
+/* Cabeçalho fixo */
 header {
     position: fixed;
     top: 15px;
@@ -78,7 +77,7 @@ header {
     align-items: center;
 }
 
-/* Estilo do título principal do site */
+/* Estilo do título */
 #logo {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.4rem;
@@ -86,14 +85,14 @@ header {
     margin: 0;
 }
 
-/* Área principal de conteúdo centralizada */
+/* Área principal */
 main {
     max-width: 1100px;
     margin: 0 auto;
     padding: 130px 20px 40px;
 }
 
-/* Botões de âncora alinhados ao centro */
+/* Botões */
 .botoes-ancora {
     display: flex;
     gap: 30px;
@@ -103,7 +102,7 @@ main {
     align-items: center;
 }
 
-/* Estilo dos botões de navegação interna */
+/* Estilo dos botões */
 .botao-ancora {
     display: inline-block;
     padding: 14px 22px;
@@ -116,14 +115,12 @@ main {
     
 }
 
-/* Hover e foco para os botões */
 .botao-ancora:hover{
     background: var(--secundaria-900);
     scale: 1.05;
-
 }
 
-/* Pequeno ícone de voltar usado nas páginas internas */
+/* ícone de voltar */
 .voltar-icone {
     display: inline-flex;
     color: var(--secundaria-700);
@@ -156,7 +153,7 @@ main {
     text-indent: 10px;
 }
 
-/* Grade de cards responsiva */
+/* Grade de cards */
 .grade-flores {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

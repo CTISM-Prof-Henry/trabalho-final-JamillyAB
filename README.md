@@ -27,8 +27,8 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 Descreva abaixo **sobre o que se trata seu site:**
 
-- **Tema:**
-- **Público-alvo:**
+- **Tema: A linguagem das flores**
+- **Público-alvo: Pessoas interessadas em presentear alguém com flores, seja no bom ou mal sentido**
 - **Funcionalidades:**
 
 ## Uso de IA
@@ -60,12 +60,12 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 #### Estrutura semântica
 
 - [ x ] `<header>`
-- [ x ] `<nav>`
+- [ ] `<nav>`
 - [ x ] `<main>`
-- [ ] `<section>`
-- [ ] `<article>`
+- [ x ] `<section>`
+- [ x ] `<article>`
 - [ ] `<aside>`
-- [ ] `<footer>`
+- [ x ] `<footer>`
 
 #### Conteúdo
 
@@ -73,8 +73,8 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 - [ x ] Parágrafos (`p`)
 - [ x ] Imagens (`img`)
 - [ x ] Links (`a`)
-- [ ] Listas:
-  - [ ] `ul`
+- [ x ] Listas:
+  - [ x ] `ul`
   - [ ] `ol`
 
 #### Formulários
@@ -88,21 +88,21 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 ### 🎨 CSS
 
 - Seletor de...
-  - [ ] Classes (`.classe`)
-  - [ ] IDs (`#id`)
-  - [ ] pseudoclasse (`#a::hover`)
-- [ ] Cores
-- [ ] Tipografia (e.g. `font-family`)
-- [ ] Margem e padding
-- [ ] Layout com `flexbox`
-- [ ] Layout com `grid`
+  - [ x ] Classes (`.classe`)
+  - [ x ] IDs (`#id`)
+  - [ x ] pseudoclasse (`#a::hover`)
+- [ x ] Cores
+- [ x ] Tipografia (e.g. `font-family`)
+- [ x ] Margem e padding
+- [ x ] Layout com `flexbox`
+- [ x ] Layout com `grid`
 - [ ] Responsividade (`media queries`)
 - [ ] Animações ou transições
 
 ## ⚙️ JavaScript
 
 - [ ] Manipulação do DOM
-- [ ] Eventos (`click`, `submit`, etc.)
+- [ x ] Eventos (`click`, `submit`, etc.)
 - [ ] Validação de formulário
 - [ ] Alteração dinâmica de conteúdo
 - [ ] Uso de funções
@@ -122,18 +122,21 @@ site/
 │
 ├── index.html
 ├── pages/
-│   ├── about.html
-│   └── contact.html
+│   ├── sobre.html
+│   └── catalagos.html
 │
 ├── css/
-│   └── style.css
+│   └── index.css
 │
 ├── js/
-│   └── script.js
+│   └── index.js
 │
 └── images/
-    ├── logo.png
-    └── banner.jpg
+    ├── fundo.png
+    ├── inicial.jpg
+    ├── favicon.ico
+    ├── 
+    └── 
 ```
 
 ## 💡 Observações

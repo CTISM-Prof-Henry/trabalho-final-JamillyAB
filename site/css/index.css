@@ -1,0 +1,246 @@
+/* Variáveis de cores usadas em todo o site */
+:root {
+    --primaria-300: #fce3e8;
+    --primaria-500: #FBD4DC;
+    --primaria-600: #f58ea3;
+    --primaria-700: #ce7889;
+    --primaria-900: #8e0d27;
+
+    --secundaria-100: #eae7f0;
+    --secundaria-300: #d5cfe1;
+    --secundaria-500: #BFB6D1;
+    --secundaria-700: #79669f;
+    --secundaria-900: #3c3251;
+
+    --terciaria-100: #ebf1e4;
+    --terciaria-300: #d7e3c9;
+    --terciaria-500: #c4d6b0;
+    --terciaria-700: #84a959;
+    --terciaria-900: #42552c;
+
+    --texto-500: #333333;
+    font-size: 16px;
+}
+
+/* Reset básico para calcular o box-sizing de forma consistente */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilo base do corpo da página */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../images/fundo.png') no-repeat center center fixed;
+    background-size: cover;
+    color: var(--texto-500);
+}
+
+/* Background só pra tela inicial */
+body#pagina-inicial {
+    background: url('../images/inicial.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Cabeçalho fixo no topo da página */
+header {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    background-color: white;
+    box-shadow: 0 2px 8px #0000001a;
+}
+
+.cabecalho-catalogo {
+    background-color: white;
+    border-radius: 25px;
+    color: var(--secundaria-500);
+    text-align: center;
+}
+
+#titulo-introducao {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
+    color: var(--secundaria-700);
+    margin: -5px 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Container interno do cabeçalho para centralizar e organizar conteúdo */
+.logo {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo do título principal do site */
+#logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
+    color: var(--secundaria-700);
+    margin: 0;
+}
+
+/* Área principal de conteúdo centralizada */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 130px 20px 40px;
+}
+
+/* Botões de âncora alinhados ao centro */
+.botoes-ancora {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 250px auto 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo dos botões de navegação interna */
+.botao-ancora {
+    display: inline-block;
+    padding: 14px 22px;
+    border-radius: 100px;
+    background: var(--secundaria-700);
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+    
+}
+
+/* Hover e foco para os botões */
+.botao-ancora:hover{
+    background: var(--secundaria-900);
+    scale: 1.05;
+
+}
+
+/* Pequeno ícone de voltar usado nas páginas internas */
+.voltar-icone {
+    display: inline-flex;
+    color: var(--secundaria-700);
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+/*Aumenta de leve o botão de voltar*/
+.voltar-icone:hover {
+    color: var(--secundaria-900);
+    scale: 1.1;
+}
+
+/* Seções principais com fundo branco translúcido */
+.secao-introducao,
+.secao-catalogo {
+    background: white;
+    border-radius: 18px;
+    padding: 28px;
+    margin-bottom: 48px;
+    box-shadow: 0 12px 30px #00000014;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-margin-top: 120px;
+}
+
+/* Identação dos textos */
+.secao-introducao p {
+    text-indent: 10px;
+}
+
+/* Grade de cards responsiva */
+.grade-flores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+    margin-top: 22px;
+}
+
+/* Títulos das seções com cor e espaçamento padronizados */
+.secao-introducao h2,
+.secao-catalogo h2 {
+    color: var(--secundaria-900);
+    margin-top: 0;
+}
+
+/* Card flor*/
+.card-flor {
+    background: white;
+    border: 1px solid var(--secundaria-100);
+    border-radius: 16px;
+    padding: 22px;
+}
+
+/* Efeito visual quando o usuário passa o mouse sobre as flores */
+.card-flor:hover {
+    scale: 1.02;
+    cursor: pointer;
+    box-shadow: 0 12px 24px #00000014;
+}
+
+/* Imagem dentro do card com ajuste de tamanho */
+.imagem-flor {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-bottom: 16px;
+}
+
+/* Título do card */
+.card-flor h2 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--terciaria-700);
+}
+
+/* Lista de significados escondida */
+.significado {
+    display: none;
+    margin-top: 16px;
+    padding-left: 18px;
+    color: var(--texto-500);
+    line-height: 1.5;
+}
+
+/* Quando o card estiver aberto, mostra a lista */
+.card-flor.ativo .significado {
+    display: block;
+}
+
+/* Pequeno destaque para o card aberto */
+.card-flor.ativo {
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Rodapé bem humilde */
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    color: var(--secundaria-700);
+   
+}
+
+/* Link do rodapé com corzinha*/
+footer a {
+    color: var(--terciaria-700);
+}
+
+#rodape-inicio {
+    position: static;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+

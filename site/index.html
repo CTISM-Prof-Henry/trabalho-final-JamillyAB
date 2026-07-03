@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta viewport="width=device-width, initial-scale=1.0">
-    <title>Minha primeira página HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floriografia</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>
-    <h1>Olá, mundo!</h1>
-    <p>Esta é a minha primeira página HTML.</p>
+<body id="pagina-inicial">
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Botões de acesso rápido para as seções principais -->
+        <div class="botoes-ancora">
+            <a href="pages/sobre.html" class="botao-ancora" target="_blank">O que é floriografia</a>
+            <a href="pages/catalagos.html" class="botao-ancora" target="_blank" >Catálogo de flores</a>
+        </div>
+    </main>
+
+    <!-- Rodapé com autoria-->
+    <footer id="rodape-inicio">
+        <p>Criado por <a href="https://github.com/JamillyAB" target="_blank">JamillyAB</a></p>
+    </footer>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

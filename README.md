@@ -145,4 +145,4 @@ Utilize este espaço para comentar:
 
 - Dificuldades encontradas
 - Decisões de design
-- Melhorias que podem ser feitas no futuro: Futuramente desejo criar um filtro por cor e por sentimentos. Talvez addicionar um sistema de "Faça seu buquê", onde o usuário selecionaria flores e seus significados vão aparecendo. Além de criar páginas para cada flor, que envolva as suas diferentes cores e os significados de cada uma delas.
+- Melhorias que podem ser feitas no futuro: Futuramente desejo criar um filtro por cor e por sentimentos, talvez situações? Também adicionar um sistema de "Faça seu buquê", onde o usuário selecionaria flores e seus significados vão aparecendo. Além de criar páginas para cada flor, que envolva as suas diferentes cores e os significados de cada uma delas. 

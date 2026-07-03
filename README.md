@@ -105,7 +105,7 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 - [ x ] Eventos (`click`, `submit`, etc.)
 - [ ] Validação de formulário
 - [ ] Alteração dinâmica de conteúdo
-- [ ] Uso de funções
+- [ x ] Uso de funções
 - [ ] Uso de arrays ou objetos
 - [ ] Uso de `fetch` ou API externa
 - [ ] local Storage
@@ -135,14 +135,23 @@ site/
     ├── fundo.png
     ├── inicial.jpg
     ├── favicon.ico
-    ├── 
-    └── 
+    ├── cravo.jpg
+    ├── camelia.jpg
+    ├── girassol.jpg
+    ├── lirio.jpg
+    ├── margaridas.jpg
+    ├── orquidea.jpg
+    ├── rosa.jpg
+    ├── tulipas.jpg
+    └── violetas.jpg
 ```
 
 ## 💡 Observações
 
 Utilize este espaço para comentar:
 
-- Dificuldades encontradas
-- Decisões de design
+- Dificuldades encontradas: Tive maior dificuldade em JS, tendo que fazer pesquisas sobre o conteúdo para me auxiliar.
+  
+- Decisões de design: Optei por um design mais suave, que traga uma estética confortável.
+  
 - Melhorias que podem ser feitas no futuro: Futuramente desejo criar um filtro por cor e por sentimentos, talvez situações? Também adicionar um sistema de "Faça seu buquê", onde o usuário selecionaria flores e seus significados vão aparecendo. Além de criar páginas para cada flor, que envolva as suas diferentes cores e os significados de cada uma delas. 

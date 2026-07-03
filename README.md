@@ -29,7 +29,7 @@ Descreva abaixo **sobre o que se trata seu site:**
 
 - **Tema: A linguagem das flores**
 - **Público-alvo: Pessoas interessadas em presentear alguém com flores, seja no bom ou mal sentido**
-- **Funcionalidades: Ao clicar em um card de flor, este irá se expandir para baixo e mostrar informações extras sobre a flor**
+- **Funcionalidades: O site apresenta a linguagem das flores. Ao clicar em um card de flor, este irá se expandir para baixo e mostrar informações extras sobre a flor**
 
 ## Uso de IA
 
@@ -143,6 +143,6 @@ site/
 
 Utilize este espaço para comentar:
 
-- dificuldades encontradas
-- decisões de design
-- melhorias que podem ser feitas no futuro
+- Dificuldades encontradas
+- Decisões de design
+- Melhorias que podem ser feitas no futuro: Futuramente desejo criar um filtro por cor e por sentimentos. Talvez addicionar um sistema de "Faça seu buquê", onde o usuário selecionaria flores e seus significados vão aparecendo. Além de criar páginas para cada flor, que envolva as suas diferentes cores e os significados de cada uma delas.
